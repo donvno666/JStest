@@ -25,3 +25,5 @@ let bignumber = 12345678901234567890123456789n;
 // alert(`the result is ${1+4}`); // 反引号内可用${}包装
 
 let isBoss = confirm("Are you the boss?");
+
+alert("New alert")
