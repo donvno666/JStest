@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>计算</title>
+</head>
+
+<body>
+
+  <script>
+  
+  function power(x, n){
+	
+	let result = x;
+	
+	while(--n){
+		result *= x; 
+	}
+
+	return result;
+	}
+
+	let base = prompt("base?",'');
+	let index = prompt("Index?",'');
+	
+	if (index < 1) {
+		alert(`Power ${index} is not supported, use a positive integer`);
+	} else {
+		alert(power(base, index));
+	}
+	
+  </script>
+
+</body>
+
+</html>
